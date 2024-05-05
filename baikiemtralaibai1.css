@@ -1,0 +1,41 @@
+/* Định dạng cho thẻ ul */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Định dạng cho thẻ li */
+li {
+    margin-bottom: 10px;
+}
+
+/* Định dạng cho thẻ iframe */
+iframe {
+    border: none;
+    margin-top: 20px;
+    height: 300px; /* Định kích thước iframe */
+}
+
+/* Định dạng cho bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Định dạng cho thẻ th */
+th {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+}
+
+/* Định dạng cho thẻ td */
+td {
+    padding: 10px;
+}
+
+/* Định dạng cho các màu background */
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
